@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-bg-color {
+    background: #000000;
+}
+
+
+
+.nav-text-color {
+    color: white;
+}
+
+
+<!-- Require css -->
+.scroll-hidden::-webkit-scrollbar {
+    height: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+

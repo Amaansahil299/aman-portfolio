@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.theme-bg-color  {
+    background: #f5f5f5;
+}
+
+
+[x-cloak] {
+    display: none;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+.theme-nav-bg-color  {
+    background: #f66e6e;
+}
+
+
+.theme-border-color  {
+    border-color: #f66e6e;
+}
+
+.nav-text-color {
+    color: white;
+}
+
+
+<!-- Require css -->
+ .scroll-hidden::-webkit-scrollbar {
+     height: 0px;
+     background: transparent;
+     /* make scrollbar transparent */
+ }
+
+
+ .skew-right{
+     display: inline-block;
+
+     clip-path: polygon(0 0, 95% 0%, 85% 100%, 0% 100%);
+ }
+
+
